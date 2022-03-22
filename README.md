@@ -20,180 +20,180 @@ entorno gráfico y en el shell con los archivos y aplicaciones del sistema.
 
 > Capítulo 1 Introducción 
 
-- A. Historia de Unix.  
-- B. GNU.  
-    1. FSF.  
-    2. CopyLeft y GPL.  
-- C. Linux.  
-    1. Características.  
-    2. Distribuciones. 
-- D. ¿Qué distribución elegir?.  
-    1. Las distribuciones para el "gran público".  
-    2. Las distribuciones "móviles".  
-    3. Las distribuciones "profesionales".  
-    4. Las distribuciones "especializadas".   
-- E. Convenciones tipográficas.  
-    1. Estilos de letra.  
-    2. Teclado. 
+    A. Historia de Unix.  
+    B. GNU.  
+        1. FSF.  
+        2. CopyLeft y GPL.  
+    C. Linux.  
+        1. Características.  
+        2. Distribuciones. 
+    D. ¿Qué distribución elegir?.  
+        1. Las distribuciones para el "gran público".  
+        2. Las distribuciones "móviles".  
+        3. Las distribuciones "profesionales".  
+        4. Las distribuciones "especializadas".   
+    E. Convenciones tipográficas.  
+        1. Estilos de letra.  
+        2. Teclado. 
 
 > Capítulo 2 Inicio de sesión y primeros comandos  
 
-- A. Introducción.  
-- B. Consolas y terminales Linux.  
-    1. Consolas virtuales.  
-    2. Emuladores de terminales.  
-    3. Terminales remotos.  
-- C. Inicio de sesión, autenticación.  
-- D. Símbolo del sistema del shell (prompt). 
-- E. Sintaxis de los comandos.  
-- F. Uso del ratón.  
-- G. Atajos de teclado.  
-    1. En modo texto.  
-    2. En modo gráfico.  
-- H. Primeros comandos.  
-    1. Identidad de los usuarios: who, whoami, finger.  
-    2. Cambio de contraseña: passwd.  
-    3. Conteo: wc.  
-    4. Visualización: clear, echo.  
-    5. Tiempo: date, cal.  
-- I. Cerrar sesión.
+    A. Introducción.  
+    B. Consolas y terminales Linux.  
+        1. Consolas virtuales.  
+        2. Emuladores de terminales.  
+        3. Terminales remotos.  
+    C. Inicio de sesión, autenticación.  
+    D. Símbolo del sistema del shell (prompt). 
+    E. Sintaxis de los comandos.  
+    F. Uso del ratón.  
+    G. Atajos de teclado.  
+        1. En modo texto.  
+        2. En modo gráfico.  
+    H. Primeros comandos.  
+        1. Identidad de los usuarios: who, whoami, finger.  
+        2. Cambio de contraseña: passwd.  
+        3. Conteo: wc.  
+        4. Visualización: clear, echo.  
+        5. Tiempo: date, cal.  
+    I. Cerrar sesión.
 
 > Capítulo 3 Documentación 
 
-- A. Introducción.  
-- B. Manual.  
-    1. Secciones. 
-    2. Comando man. 
-    3. /etc/man.config. 
-- C. Documentación Info.  
-    1. Comando info.  
-- D. Opción --help de los comandos en Linux.  
-- E. Documentación HOWTO.  
-- F. /usr/share/doc.  
-- G. Internet.  
-    1. Sitios.  
-    2. Grupos de discusión. 
+    A. Introducción.  
+    B. Manual.  
+        1. Secciones. 
+        2. Comando man. 
+        3. /etc/man.config. 
+    C. Documentación Info.  
+        1. Comando info.  
+    D. Opción --help de los comandos en Linux.  
+    E. Documentación HOWTO.  
+    F. /usr/share/doc.  
+    G. Internet.  
+        1. Sitios.  
+        2. Grupos de discusión. 
 
 > Capítulo 4 El árbol de Linux 
 
-- A. El árbol de Linux.  
-- B. Directorios principales.  
-    1. /bin, /sbin, /lib.  
-    2. /boot.  
-    3. /dev.  
-    4. /home.  
-    5. /root. 
-    6. /tmp. 
-    7. /lost+found. 
-    8. /mnt.  
-    9. /proc.  
-    10. /sys.  
-    11. /usr.  
-    12. /var.  
-    13. /etc. 
-- C. Montar y acceder a los medios extraibles.  
-    1. Comando mount.  
-    2. Comando umount.  
-    3. Caja de herramientas mtools. 
+    A. El árbol de Linux.  
+    B. Directorios principales.  
+        1. /bin, /sbin, /lib.  
+        2. /boot.  
+        3. /dev.  
+        4. /home.  
+        5. /root. 
+        6. /tmp. 
+        7. /lost+found. 
+        8. /mnt.  
+        9. /proc.  
+        10. /sys.  
+        11. /usr.  
+        12. /var.  
+        13. /etc. 
+    C. Montar y acceder a los medios extraibles.  
+        1. Comando mount.  
+        2. Comando umount.  
+        3. Caja de herramientas mtools. 
 
 > Capítulo 5 Manipulación de archivos 
 
-- A. Introducción.  
-- B. Nombres de archivos y de directorios.  
-- C. Tipos de archivos.  
-- D. Rutas.  
-    1. Rutas absolutas.  
-    2. Rutas relativas.  
-    3. Rutas personales.  
-- E. Exploración del árbol.  
-    1. pwd.  
-    2. cd.  
-    3. ls.  
-    4. file.  
-    5. stat.  
-- G. Archivos  
-    1. touch.  
-    2. cp.  
-    3. rm.  
-    4. mv.  
-- H. Organización física de los archivos en Linux.  
-    1. Inodos y bloques de datos.  
-- I. Administradores de archivos.  
-    1. Midnight Commander.  
-    2. Konqueror, Nautilus. 
+    A. Introducción.  
+    B. Nombres de archivos y de directorios.  
+    C. Tipos de archivos.  
+    D. Rutas.  
+        1. Rutas absolutas.  
+        2. Rutas relativas.  
+        3. Rutas personales.  
+    E. Exploración del árbol.  
+        1. pwd.  
+        2. cd.  
+        3. ls.  
+        4. file.  
+        5. stat.  
+    G. Archivos  
+        1. touch.  
+        2. cp.  
+        3. rm.  
+        4. mv.  
+    H. Organización física de los archivos en Linux.  
+        1. Inodos y bloques de datos.  
+    I. Administradores de archivos.  
+        1. Midnight Commander.  
+        2. Konqueror, Nautilus. 
 
-- J. Consultar archivos.  
-    1. cat.  
-    2. more, less.  
-    3. od, strings. 
+    J. Consultar archivos.  
+        1. cat.  
+        2. more, less.  
+        3. od, strings. 
 
 > Capítulo 6 Edición de archivos de texto – Vi 
 
-- A. Introducción.  
-- B. Presentación de Vi.  
-    1. Inicio de Vi.  
-    2. Modos de funcionamiento.  
-    3. Comandos de desplazamiento.  
-    4. Comandos de inserción.  
-    5. Comandos de edición y de corrección.  
-    6. Comandos globales.  
-    7. Archivo de configuración personal.  
-    8. Otros comandos útiles.  
-- C. Otras herramientas de edición  
-    1. Otros editores de texto.  
-    2. Editores hexadecimales. 
+    A. Introducción.  
+    B. Presentación de Vi.  
+        1. Inicio de Vi.  
+        2. Modos de funcionamiento.  
+        3. Comandos de desplazamiento.  
+        4. Comandos de inserción.  
+        5. Comandos de edición y de corrección.  
+        6. Comandos globales.  
+        7. Archivo de configuración personal.  
+        8. Otros comandos útiles.  
+    C. Otras herramientas de edición  
+        1. Otros editores de texto.  
+        2. Editores hexadecimales. 
 
 > Capítulo 7 Permisos de acceso a los archivos 
 
-- A. Conceptos de cuentas de usuario y de grupos.  
-    1. Jerarquía de usuarios.  
-    2. Comandos útiles.  
-- B. Permisos de Unix.  
-    1. Permisos estándar.  
-    2. SUID, SGID y Sticky Bit. 
-- C. Administrar permisos.  
-    1. chgrp.  
-    2. chmod. 
-    3. umask.  
-    4. Administradores de archivos. 
+    A. Conceptos de cuentas de usuario y de grupos.  
+        1. Jerarquía de usuarios.  
+        2. Comandos útiles.  
+    B. Permisos de Unix.  
+        1. Permisos estándar.  
+        2. SUID, SGID y Sticky Bit. 
+    C. Administrar permisos.  
+        1. chgrp.  
+        2. chmod. 
+        3. umask.  
+        4. Administradores de archivos. 
 
 > Capítulo 8 Administración de procesos 
 
-- A. Introducción.  
-- B. Árbol de procesos y PID.  
-- C. Visualización de los procesos.  
-    1. ps.  
-    2. top.  
-    3. pstree.  
-- D. Señales y comando kill.  
-- E. Administradores de procesos gráficos.  
-- F. Trabajo con procesos.  
-    1. Iniciar un proceso.  
-    2. Detener un proceso.  
-    3. Controlar los procesos iniciados desde la línea de comandos. 
+    A. Introducción.  
+    B. Árbol de procesos y PID.  
+    C. Visualización de los procesos.  
+        1. ps.  
+        2. top.  
+        3. pstree.  
+    D. Señales y comando kill.  
+    E. Administradores de procesos gráficos.  
+    F. Trabajo con procesos.  
+        1. Iniciar un proceso.  
+        2. Detener un proceso.  
+        3. Controlar los procesos iniciados desde la línea de comandos. 
 
-> Capítulo 9 Shell Bash 
+    > Capítulo 9 Shell Bash 
 
-- A. Introducción.  
-- B. Generalidades y definiciones.  
-- C. Variables.  
-    1. Trabajo con variables.  
-    2. Variables de entorno.  
-- D. Caracteres genéricos.  
-- E. Caracteres de cita.  
-- F. Redirecciones.  
-    1. Descriptores de archivos.  
-    2. Redirección de la entrada estándar.  
-    3. Redirección de la salida estándar.  
-    4. Redirección del error estándar. 
-    5. Redirecciones combinadas.  
-    6. Ejemplos de redirecciones.  
-    7. Los tubos.  
-- G. Alias.  
-- H. Ejecución de comandos.  
-    1. type, whereis.  
-- I. Sustitución de comandos.  
-- J. Opciones del shell Bash.
+    A. Introducción.  
+    B. Generalidades y definiciones.  
+    C. Variables.  
+        1. Trabajo con variables.  
+        2. Variables de entorno.  
+    D. Caracteres genéricos.  
+    E. Caracteres de cita.  
+    F. Redirecciones.  
+        1. Descriptores de archivos.  
+        2. Redirección de la entrada estándar.  
+        3. Redirección de la salida estándar.  
+        4. Redirección del error estándar. 
+        5. Redirecciones combinadas.  
+        6. Ejemplos de redirecciones.  
+        7. Los tubos.  
+    G. Alias.  
+    H. Ejecución de comandos.  
+        1. type, whereis.  
+    I. Sustitución de comandos.  
+    J. Opciones del shell Bash.
 
 ---
 
