@@ -155,6 +155,8 @@
 
 ![Figura 1.1](./figures/1.37.png)
 
+![Figura 1.1](./figures/1.38.png)
+
 [REFERENCIAS]
 
 * [https://www.redeszone.net/2017/10/29/windows-virtualbox-vs-subsistema-linux/](https://www.redeszone.net/2017/10/29/windows-virtualbox-vs-subsistema-linux/)
