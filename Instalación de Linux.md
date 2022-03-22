@@ -134,3 +134,7 @@
 > Esperamos a que ingrese
 
 ![Figura 1.1](./figures/1.33.png)
+
+> Ya podemos usar nuestra distribución de linux
+
+![Figura 1.1](./figures/1.34.png)
