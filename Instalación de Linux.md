@@ -155,6 +155,11 @@
 
 ![Figura 1.1](./figures/1.37.png)
 
+[REFERENCIAS]
+
+* [https://www.redeszone.net/2017/10/29/windows-virtualbox-vs-subsistema-linux/](https://www.redeszone.net/2017/10/29/windows-virtualbox-vs-subsistema-linux/)
+* [https://www.softzone.es/programas/sistema/usar-virtualbox-vmware-hyper-v-windows/](https://www.softzone.es/programas/sistema/usar-virtualbox-vmware-hyper-v-windows/)
+
 ---
 
 [![Alan Badillo Salas](https://avatars.githubusercontent.com/u/79223578?s=40&v=4 "Alan Badillo Salas")](https://github.com/dragonnomada) Instructor [Alan Badillo Salas](https://github.com/dragonnomada)
