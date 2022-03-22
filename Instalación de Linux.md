@@ -145,7 +145,7 @@
 
 ---
 
-## Activar la capacidad de virtualización el BIOS
+## Activar la capacidad de virtualización en el BIOS
 
     NOTA: Para ingresar al BIOS reinicia y mantén pulsado F2/F8/F10/F12 o la tecla SUPR dependiendo la computadora.
 
