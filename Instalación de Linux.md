@@ -138,3 +138,15 @@
 > Ya podemos usar nuestra distribución de linux
 
 ![Figura 1.1](./figures/1.34.png)
+
+---
+
+## Activar la capacidad de virtualización el BIOS
+
+    NOTA: Para ingresar al BIOS reinicia y mantén pulsado F2/F8/F10/F12 o la tecla SUPR dependiendo la computadora.
+
+![Figura 1.1](./figures/1.36.png)
+
+![Figura 1.1](./figures/1.35.png)
+
+![Figura 1.1](./figures/1.37.png)
