@@ -1,6 +1,6 @@
 # Guía de Instalación de Linux
 
-##
+## Paso a Paso
 
 > Crear una nueva máquina virtual
 
