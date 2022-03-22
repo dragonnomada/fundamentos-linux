@@ -130,3 +130,7 @@
 ![Figura 1.1](./figures/1.32.png)
 
 * **Nota:** Ahora ya podemos reiniciar y usar la instalación
+
+> Esperamos a que ingrese
+
+![Figura 1.1](./figures/1.33.png)
