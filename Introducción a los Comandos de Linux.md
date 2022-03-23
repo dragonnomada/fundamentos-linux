@@ -57,6 +57,10 @@ Comando | Descripción
 `cat <file 1> ... <file n>` | Concatena el o los archivos en la salida estándar (muestra)
 `less <file>` | Muestra el contenido de un archivo por páginas
 `lynx <url>` | Abre un navegar web en modo texto para la url solicitada
+`mkdir <dir>` | Crea una nueva carpeta con el nombre especificado
+`mount <device> <path>` | Montar un dispositivo en la carpeta especificada
+`mount -l` | Ver los dispositivos montado
+`umout <device>` | Desmonta un dispositivo de su carpeta montada
 
 
 ## Rutas importantes de Linux (Sistema de archivos)
