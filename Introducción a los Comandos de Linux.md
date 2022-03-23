@@ -60,7 +60,7 @@ Comando | Descripción
 `mkdir <dir>` | Crea una nueva carpeta con el nombre especificado
 `mount <device> <path>` | Montar un dispositivo en la carpeta especificada
 `mount -l` | Ver los dispositivos montado
-`umout <device>` | Desmonta un dispositivo de su carpeta montada
+`umount <device>` | Desmonta un dispositivo de su carpeta montada
 
 
 ## Rutas importantes de Linux (Sistema de archivos)
