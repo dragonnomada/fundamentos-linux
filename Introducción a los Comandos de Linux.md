@@ -48,6 +48,16 @@ Comando | Descripción
 `usermod -e 0 <username>` | Expira la cuenta de usuario solicitada (la deja inactiva de forma efectiva)
 `usermod -e YYYY-MM-DD <username>` | Programa la expiración de la cuenta
 `sudo usermod -e 99999 <username>` | Quita la fecha de expiración de la cuenta solicitada
+`who -u` | Muestra la lista de usuarios activos
+`kill <pid>` | Mata un proceso específico
+`chfn <username>` | Cambia la información del usuario solicitado
+`finger` | Muestra la información de los usuarios
+`finger -s <username>` | Muestra la información del usuario solicitado
+`more <file>` | Muestra el contenido del archivo por páginas
+`cat <file 1> ... <file n>` | Concatena el o los archivos en la salida estándar (muestra)
+`less <file>` | Muestra el contenido de un archivo por páginas
+`lynx <url>` | Abre un navegar web en modo texto para la url solicitada
+
 
 ## Rutas importantes de Linux (Sistema de archivos)
 
@@ -68,6 +78,16 @@ Ruta | Descripción
 `/tmp` | La carpeta de archivos temporales (caché)
 `/media` | Una carpeta diseñada para montar unidades
 `/sys` | Una carpeta con cosas del sistema
+`/usr/share/doc/<command>` | Contiene la documentación adicional del comando
+`~` | Se refiere a la carpeta del usuario
+`~<username>` | Se refiere a la carpeta del usuario especificado
 
+## Dispositivos y Montado
 
+Cuándo linux detecta un nuevo dispositivo creará un archivo lógico dentro de `/dev`, por ejemplo, si conectamos un nuevo disco duro o una memoria usb, generalmente saldrá registrada como `/sd<X>` (ejemplo `/dev/sda`, `/dev/sdb`, `/dev/sdc`, ...).
 
+Los dispositivos de almacenamiento contienen una tabla de particiones, la cuál permite informarle al sistema sobre los sectores utilizables para el almacenamiento. Generalmente las memorias USB contienen una sola partición y también los discos duros. Sin embargo, hay discos particionados en múltiples sectores, cada partición reservando sus propios sectores, lo que hace que el disco funcione como si fueran dos o más discos duros.
+
+Cuándo un medio tiene particiones estas serán registradas como `/dev/sdb<X><N>` (ejemplo `/dev/sdb1`, `/dev/sdb2`, ...).
+
+Los comandos más útiles para trabar con medios de almacenamiento son `lsblk`, `fdisk`, `mkfs.<...>`, `mount` y `umount`.
