@@ -1,0 +1,5 @@
+[CTRL + ALT + Fn] - Terminal Virtual
+
+[CTRL + ALT + T] - Terminal Emulada
+
+[CTRL + L] - Limpia la terminal visible

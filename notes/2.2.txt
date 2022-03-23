@@ -1,0 +1,40 @@
+Diferencias entre las distribuciones:
+
+>>> Cómo se ve y cómo se administra
+
+- El Sistema de Escritorio
+
+	* GNOME
+	* KDE
+	* XCFE
+	* ...
+
+- Aplicaciones Gráficas
+
+	* Gestor de Archivos
+	* Navagador
+	* Administrador de Correo
+	* Soporte a Escritorios Virtuales
+	* Menú de aplicaciones
+	* Panel de Configuración
+	* Bandeja de Notificaciones
+	* Terminal Integrada
+
+- Tienda de Aplicaciones
+
+- Gestor de Paquetes de Software
+
+	* Aptitude (apt install ...)
+	* Yast     (yast remove ...)
+	* Yum      (yum list ...)
+	* Pacman   (pac ...)
+	* ...
+
+- Gestor de Actualizaciones
+
+	* APT
+	* YAST
+	* DFN
+	* RPM
+	* ...
+

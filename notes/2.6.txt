@@ -1,0 +1,16 @@
+Ayuda en comandos
+
+man <comando>
+
+info <comando>
+
+<comando> --help
+
+<comando> -h
+
+Subcomando / Parámetros
+
+<comando> <subcomando>
+
+Instalar los VirtualBox Guest Additions
+

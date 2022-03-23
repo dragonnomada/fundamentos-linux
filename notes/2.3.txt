@@ -1,0 +1,17 @@
+Cosas comunes entre las distribuciones:
+
+- Kernel Linux (núcleo de linux)
+
+- Paquetes de software estáres de linux:
+
+	* GCC
+	* Bash
+	* Comandos
+	* SSH
+	* FTP (Samba, ...)
+	* Apache (PHP)
+	* Tomcat
+	* Java
+	* CUALQUIER APLICACIÓN GRÁFICAS X11
+	* Systemctl
+	* Firewall / UFW

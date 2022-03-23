@@ -1,0 +1,23 @@
+MODO TEXTO -> LÍNEA DE COMANDOS
+
+MODO GRÁFICO -> GUI
+
+DOS TIPOS DE USUARIO:
+
+---
+
+ADMINISTRADOR (sudo)
+
+ESTÁNDAR (-)
+
+---
+
+DOS TIPOS DE COMANDOS
+
+---
+
+SUDO (sudo <comando>)
+
+- (<comando>)
+
+---
