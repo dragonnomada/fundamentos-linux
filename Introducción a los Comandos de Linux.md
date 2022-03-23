@@ -1,4 +1,4 @@
-# Guía de Instalación de Linux
+# Introducción a los Comandos de Linux
 
 [![CST Logo](./figures/logo.png)](https://cloud-systems-technology.com.mx)
 
