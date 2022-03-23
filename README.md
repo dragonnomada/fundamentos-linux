@@ -528,7 +528,231 @@ entorno gráfico y en el shell con los archivos y aplicaciones del sistema.
     /usr
     /var
 
+## Ejercicio 4.2
 
+    # Montar y desmontar un disco duro virtual
+
+    1. Agrega un nuevo disco duro virtual
+
+        ! Apaga la maquina virtual
+
+        VirtualBox -> [DISTRO] -> Configuración
+            -> Controlador: SATA -> Añadir Disco Duro
+            -> Crear -> VDI -> Reservado Dinámicamente
+            -> 10GB -> Crear -> Seleccionar -> Aceptar
+
+    2. Inspecciona `fdisk` con `man`
+
+        [$] man fdisk
+
+    2. Inspecciona `lsblk` con `man`
+
+        [$] man lsblk
+    
+    3. Lista las particiones y discos con `lsblk`
+
+        [$] lsblk
+
+    4. Edita las particiones de `/dev/sdb` con `fdisk`
+
+        [#] fdisk /dev/sdb
+
+    5. Obtén la ayuda con `m` en `fdisk`
+
+        [m]
+
+    6. Obtén la información del espacio no particionado con `F` en `fdisk`
+
+        [F]
+
+    7. Crea una tabla de particiones *GPT* con `g` en `fdisk`
+
+        [g]
+
+    8. Muestra la tabla de particiones con `p` en `fdisk`
+
+        [p]
+
+    9. Añade una partición de `5GB` con `n` en `fdisk`
+
+        [n]
+        [1]
+        [2048]
+        [+5GB]
+
+    10. Añade una segunda partición con el espacio restante con `n` en `fdisk` 
+
+        [n]
+        [ENTER]
+        [ENTER]
+
+    11. Obtén la información del espacio no particionado con `F` en `fdisk`
+
+        [F]
+
+    12. Obtén la información de las particiones creadas con `i` en `fdisk`
+
+        [i]
+        [1]
+
+        ...
+
+        [i]
+        [2]
+
+    13. Muestra la tabla de particiones con `p` en `fdisk`
+
+        [p]
+
+    14. Verfica las particiones creadas con `v` en `fdisk`
+
+        [v]
+
+    15. Escribe los datos de la partición con `w` en `fdisk`
+
+        [w]
+
+    16. Verifica el estado del disco `/dev/sdb` con `fdisk`
+
+        [#] fdisk -l /dev/sdb
+
+    17. Inspecciona el comando `mkfs.ext4` con `man`
+
+        [$] man mkfs.ext4
+
+    18. Asigna el sistema de archivos para las particiones `ext4` con `mkfs.ext4`
+
+        [#] mkfs.ext4 /dev/sdb1
+        [#] mkfs.ext4 /dev/sdb2
+
+    19. Crea dos carpetas de montaje con `mkdir`
+
+        [#] mkdir /media/projects
+        [#] mkdir /media/personal
+
+    20. Inspecciona el comando `mount` con `man`
+
+        [$] man mount
+
+    21. Monta las particiones de `/dev/sdb` con `mount`
+
+        [#] mount /dev/sdb1 /media/projects
+        [#] mount /dev/sdb1 /media/personal
+
+    22. Obtén la información las particiones montadas con `mount`
+
+        [$] mount -l
+
+    23. Obtén la información de las carpetas de las particiones montadas con `ls`
+
+        [$] ls -la /media/projects    
+        [$] ls -la /media/personal
+
+    24. Inspecciona el comando `touch` con `man`
+
+        [$] man touch    
+
+    25. Crea un archivo llamado `project_hello` en `/media/projects`
+
+        [$] cd /media/projects
+        [#] touch project_hello
+
+    26. Crea un archivo llamado `personal_hello` en `/media/projects`
+
+        [$] cd /media/personal
+        [#] touch personal_hello
+
+    27. Obtén la información de las carpetas de las particiones montadas con `ls`
+
+        [$] ls -la /media/projects    
+        [$] ls -la /media/personal
+
+    28. Inpecciona el comando `umount` con `man`
+
+        [$] man umount
+
+    29. Desmonta las particiones
+
+        [#] umount /media/projects
+        [#] umount /media/personal
+
+    30. Obtén la información las particiones montadas con `mount`
+
+        [$] mount -l
+
+    31. Revisa el contenido de las carpetas de montaje en `/media` con `ls`
+
+        [$] ls -la /media/projects    
+        [$] ls -la /media/personal
+ 
+## Capítulo 5 Manipulación de archivos 
+
+    A. Introducción.  
+    B. Nombres de archivos y de directorios.  
+    C. Tipos de archivos.  
+    D. Rutas.  
+        1. Rutas absolutas.  
+        2. Rutas relativas.  
+        3. Rutas personales.  
+    E. Exploración del árbol.  
+        1. pwd.  
+        2. cd.  
+        3. ls.  
+        4. file.  
+        5. stat.  
+    G. Archivos  
+        1. touch.  
+        2. cp.  
+        3. rm.  
+        4. mv.  
+    H. Organización física de los archivos en Linux.  
+        1. Inodos y bloques de datos.  
+    I. Administradores de archivos.  
+        1. Midnight Commander.  
+        2. Konqueror, Nautilus. 
+
+    J. Consultar archivos.  
+        1. cat.  
+        2. more, less.  
+        3. od, strings. 
+
+### Ejercicio 5.1
+
+    # Archivos personalizados
+
+    1. Crea un archivo con `touch`
+
+        [$] touch 
+
+## Capítulo 6 Edición de archivos de texto – Vi 
+
+    A. Introducción.  
+    B. Presentación de Vi.  
+        1. Inicio de Vi.  
+        2. Modos de funcionamiento.  
+        3. Comandos de desplazamiento.  
+        4. Comandos de inserción.  
+        5. Comandos de edición y de corrección.  
+        6. Comandos globales.  
+        7. Archivo de configuración personal.  
+        8. Otros comandos útiles.  
+    C. Otras herramientas de edición  
+        1. Otros editores de texto.  
+        2. Editores hexadecimales. 
+
+> Capítulo 7 Permisos de acceso a los archivos 
+
+    A. Conceptos de cuentas de usuario y de grupos.  
+        1. Jerarquía de usuarios.  
+        2. Comandos útiles.  
+    B. Permisos de Unix.  
+        1. Permisos estándar.  
+        2. SUID, SGID y Sticky Bit. 
+    C. Administrar permisos.  
+        1. chgrp.  
+        2. chmod. 
+        3. umask.  
+        4. Administradores de archivos. 
 
 ---
 
