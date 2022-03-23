@@ -718,11 +718,24 @@ entorno gráfico y en el shell con los archivos y aplicaciones del sistema.
 
 ### Ejercicio 5.1
 
-    # Archivos personalizados
+    # Crea diversos archivos en las particiones `/dev/sdb1` (`/media/projects`)
+    # Crea diversos archivos en las particiones `/dev/sdb2` (`/media/personal`)
 
-    1. Crea un archivo con `touch`
+### Ejercicio 5.2
 
-        [$] touch 
+    # Copia algunos archivos de las partición `/dev/sdb1` (`/media/projects`) a `/dev/sdb2` (`/media/personal`)
+
+### Ejercicio 5.3
+
+    # Mueve algunos archivos de las partición `/dev/sdb2` (`/media/personal`) a `/dev/sdb1` (`/media/projects`)
+
+### Ejercicio 5.4
+
+    Usa Midnight Commander (`mc`) para analizar los archivos en las particiones de `/dev/sdb`
+
+### Ejercicio 5.5
+
+    Revisa el contenido de los archivos en las particiones de `/dev/sdb` con `cat`
 
 ## Capítulo 6 Edición de archivos de texto – Vi 
 
@@ -740,7 +753,23 @@ entorno gráfico y en el shell con los archivos y aplicaciones del sistema.
         1. Otros editores de texto.  
         2. Editores hexadecimales. 
 
-> Capítulo 7 Permisos de acceso a los archivos 
+### Ejercicio 6.1
+
+    # Crea archivos en las particiones de `/dev/sdb`
+
+### Ejercicio 6.2
+
+    # Edita archivos en las particiones de `/dev/sdb` cumpliendo los siguientes objetivos
+
+    1. Agregar una línea de texto al final
+    2. Editando al principio de una línea
+    3. Mover y editar en la tercer palabra de una línea
+    4. Ir al principio del archivo
+    5. Editar y salir guardando los cambios
+    6. Editar y salir sin guardar los cambios
+    7. Buscar una palabra en el archivo
+
+## Capítulo 7 Permisos de acceso a los archivos 
 
     A. Conceptos de cuentas de usuario y de grupos.  
         1. Jerarquía de usuarios.  
@@ -753,6 +782,22 @@ entorno gráfico y en el shell con los archivos y aplicaciones del sistema.
         2. chmod. 
         3. umask.  
         4. Administradores de archivos. 
+
+### Ejercicio 7.1
+
+    # Crea una carpeta protegida para el grupo marketing en `/dev/sdb1` (`/media/projects/marketing`)
+
+### Ejercicio 7.3
+
+    # Activa el propietario del grupo a `marketing` (*SGID*) a `/media/projects/marketing`
+
+### Ejercicio 7.4
+
+    # Proteje contra borrado (*Sticky Bit*) a `/media/projects/marketing`
+
+### Ejercicio 7.5
+
+    # Crea un script de ejecución con permisos del usuario (*SGID*)
 
 ---
 
