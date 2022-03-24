@@ -11,6 +11,8 @@ Teclas | Descripción
 `[CTRL + ALT + F<n>]` | Abre la `<n>` terminal virtual (`TTY<n>`). **Nota:** `TTY7` es comunmente la terminal gráfica.
 `[CTRL + ALT + T]` | Abre una terminal emulada en el modo gráfico.
 `[CTRL + L]` | Limpia la terminal (recorre la vista).
+`[CTRL + C]` | Detiene un programa
+`[CTRL + Z]` | Suspende un programa
 
 ## Comandos de Linux
 
@@ -29,6 +31,7 @@ Comando | Descripción
 `apt show <package>` | Muestra la información de un paquete
 `apt install <package>` | Instala un paquete
 `nano <path>/<file>` | Abre un editor sencillo de texto (`[CTRL+O] Guardar [CTRL+X] Salir`)
+`groupadd <group>` | Crea un nuevo grupo del sistema
 `useradd -m -d <home>/<username> -s /bin/bash <username>` | Crea un nuevo usuario del sistema
 `id` | Muestra la información de usuario actual
 `id <username>` | Muestra la información del usuario solicitado
@@ -62,7 +65,6 @@ Comando | Descripción
 `mount -l` | Ver los dispositivos montado
 `umount <device>` | Desmonta un dispositivo de su carpeta montada
 
-
 ## Rutas importantes de Linux (Sistema de archivos)
 
 Ruta | Descripción
@@ -95,3 +97,13 @@ Los dispositivos de almacenamiento contienen una tabla de particiones, la cuál 
 Cuándo un medio tiene particiones estas serán registradas como `/dev/sdb<X><N>` (ejemplo `/dev/sdb1`, `/dev/sdb2`, ...).
 
 Los comandos más útiles para trabar con medios de almacenamiento son `lsblk`, `fdisk`, `mkfs.<...>`, `mount` y `umount`.
+
+---
+
+[![Alan Badillo Salas](https://avatars.githubusercontent.com/u/79223578?s=40&v=4 "Alan Badillo Salas")](https://github.com/dragonnomada) Instructor [Alan Badillo Salas](https://github.com/dragonnomada)
+
+Estudié **Matemáticas Aplicadas** en la Universidad Autónoma Metropolitana, posteriormente realicé una Maestría en **Inteligencia Artificial** en el Instituto Politécnico Nacional.
+
+He impartido cursos de Programación Avanzada en múltiples lenguajes de programación, incluyendo *C/C++, C#, Java, Python, Javascript* y plataformas como *Android, IOS, Xamarin, React, Vue, Angular, Node, Express*. Ciencia de Datos en *Minería de Datos, Visualización de Datos, Aprendizaje Automático y Aprendizaje Profundo*. También sobre *Sistemas de administración basados en Linux, Apache, Nignx* y *Bases de Datos SQL y NoSQL* como MySQL, SQL Server y Mongo. Desde hace 7 años en varios instituciones incluyendo el *IPN-CIC, CST, KMMX, The Inventor's House, Auribox*. Para diversos clientes incluyendo al *INEGI, CFE, PGJ, SEMAR, Universidades, Oracle, Intel y Telmex*.
+
+---
