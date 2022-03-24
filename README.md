@@ -172,7 +172,7 @@ entorno gráfico y en el shell con los archivos y aplicaciones del sistema.
         2. Detener un proceso.  
         3. Controlar los procesos iniciados desde la línea de comandos. 
 
-    > Capítulo 9 Shell Bash 
+> Capítulo 9 Shell Bash 
 
     A. Introducción.  
     B. Generalidades y definiciones.  
